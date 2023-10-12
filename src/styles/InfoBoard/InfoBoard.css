@@ -1,0 +1,35 @@
+.infoboard_container{
+    padding: 10px;
+    overflow: scroll;
+    min-width: 200px;
+}
+
+.infoboard_container::-webkit-scrollbar {
+    display: none;
+}
+
+
+.ranger{
+    margin: auto;
+    width: 80%;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.infoboard_container {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.listed_button {
+    outline: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    min-height: 20px;
+    margin-top: 10px;
+}
+
+.listed_button:hover {
+    background-color: skyblue;
+}

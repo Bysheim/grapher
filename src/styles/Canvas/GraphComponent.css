@@ -1,0 +1,5 @@
+.craph_component_container {
+    display: flex;
+    position: absolute;
+    border-radius: 100%;
+}

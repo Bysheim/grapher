@@ -1,0 +1,210 @@
+{
+    "weighted": true,
+    "directed": true,
+    "vertices": {
+        "vertex-QoxZ5": {
+            "edges": [
+                "edge-YDIKF",
+                "edge-Rt6wA",
+                "edge-hiVEf",
+                "edge-dPgrJ",
+                "edge-gBMSt",
+                "edge-6RvTv"
+            ],
+            "position": {
+                "x": 31.095472369686938,
+                "y": 46.81790221952865
+            },
+            "symbol": "B"
+        },
+        "vertex-NTsbe": {
+            "edges": [
+                "edge-hiVEf",
+                "edge-gBMSt"
+            ],
+            "position": {
+                "x": 12.421874407678871,
+                "y": 9.922359590172457
+            },
+            "symbol": "A"
+        },
+        "vertex-CnF87": {
+            "edges": [
+                "edge-Rt6wA",
+                "edge-3KWxG",
+                "edge-NNrcf",
+                "edge-HbLRt"
+            ],
+            "position": {
+                "x": 36.8603633146289,
+                "y": 87.34683249912061
+            },
+            "symbol": "F"
+        },
+        "vertex-XyPXj": {
+            "edges": [
+                "edge-dPgrJ",
+                "edge-JjkXj",
+                "edge-BnHNA",
+                "edge-NNrcf",
+                "edge-HbLRt"
+            ],
+            "position": {
+                "x": 62.01625107437564,
+                "y": 77.5639872592191
+            },
+            "symbol": "G"
+        },
+        "vertex-OtyU8": {
+            "edges": [
+                "edge-Mtp5D",
+                "edge-kIfV7"
+            ],
+            "position": {
+                "x": 46.29382122453393,
+                "y": 24.10772576975729
+            },
+            "symbol": "D"
+        },
+        "vertex-c6Sm8": {
+            "edges": [
+                "edge-JjkXj",
+                "edge-Mtp5D",
+                "edge-kIfV7"
+            ],
+            "position": {
+                "x": 79.48561757419976,
+                "y": 43.84810991455855
+            },
+            "symbol": "C"
+        },
+        "vertex-GbLZV": {
+            "edges": [
+                "edge-BnHNA"
+            ],
+            "position": {
+                "x": 82.38280857168157,
+                "y": 63.027946129123634
+            },
+            "symbol": "H"
+        },
+        "vertex-Zt7aK": {
+            "edges": [
+                "edge-YDIKF",
+                "edge-3KWxG",
+                "edge-6RvTv"
+            ],
+            "position": {
+                "x": 5.507812237367046,
+                "y": 74.62732424157876
+            },
+            "symbol": "E"
+        }
+    },
+    "edges": {
+        "edge-YDIKF": {
+            "vertices": {
+                "a": "vertex-QoxZ5",
+                "b": "vertex-Zt7aK"
+            },
+            "weight": 0,
+            "double": false
+        },
+        "edge-Rt6wA": {
+            "vertices": {
+                "a": "vertex-QoxZ5",
+                "b": "vertex-CnF87"
+            },
+            "weight": 183,
+            "double": false
+        },
+        "edge-hiVEf": {
+            "vertices": {
+                "a": "vertex-QoxZ5",
+                "b": "vertex-NTsbe"
+            },
+            "weight": 167,
+            "double": false
+        },
+        "edge-dPgrJ": {
+            "vertices": {
+                "a": "vertex-XyPXj",
+                "b": "vertex-QoxZ5"
+            },
+            "weight": 155,
+            "double": false
+        },
+        "edge-gBMSt": {
+            "vertices": {
+                "a": "vertex-NTsbe",
+                "b": "vertex-QoxZ5"
+            },
+            "weight": 83,
+            "double": true
+        },
+        "edge-JjkXj": {
+            "vertices": {
+                "a": "vertex-c6Sm8",
+                "b": "vertex-XyPXj"
+            },
+            "weight": 55,
+            "double": false
+        },
+        "edge-Mtp5D": {
+            "vertices": {
+                "a": "vertex-c6Sm8",
+                "b": "vertex-OtyU8"
+            },
+            "weight": 100,
+            "double": false
+        },
+        "edge-kIfV7": {
+            "vertices": {
+                "a": "vertex-OtyU8",
+                "b": "vertex-c6Sm8"
+            },
+            "weight": 35,
+            "double": true
+        },
+        "edge-BnHNA": {
+            "vertices": {
+                "a": "vertex-XyPXj",
+                "b": "vertex-GbLZV"
+            },
+            "weight": 71,
+            "double": false
+        },
+        "edge-3KWxG": {
+            "vertices": {
+                "a": "vertex-Zt7aK",
+                "b": "vertex-CnF87"
+            },
+            "weight": 151,
+            "double": false
+        },
+        "edge-6RvTv": {
+            "vertices": {
+                "a": "vertex-Zt7aK",
+                "b": "vertex-QoxZ5"
+            },
+            "weight": 90,
+            "double": true
+        },
+        "edge-NNrcf": {
+            "vertices": {
+                "a": "vertex-CnF87",
+                "b": "vertex-XyPXj"
+            },
+            "weight": 169,
+            "double": false
+        },
+        "edge-HbLRt": {
+            "vertices": {
+                "a": "vertex-XyPXj",
+                "b": "vertex-CnF87"
+            },
+            "weight": 148,
+            "double": true
+        }
+    }
+}

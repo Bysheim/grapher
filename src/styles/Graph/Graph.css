@@ -1,0 +1,24 @@
+.graph-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    outline: 1px solid black;
+
+}
+
+.graph-header{
+    text-align: center;
+}
+
+.graph-body{
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid black;
+    height: 80vh;
+}
+
+.graph-footer{
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid black;
+}
